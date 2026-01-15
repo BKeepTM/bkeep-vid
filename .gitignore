@@ -1,1 +1,8 @@
 bees.v5i.yolov11/
+test
+train
+valid
+runs
+
+# YOLO model weights
+*.pt

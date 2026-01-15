@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['bee', 'mite', 'pollen', 'queen', 'queen_cell', 'varroa']
+
+roboflow:
+  workspace: bkeep
+  project: bees-ytrmp-nqjik
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bkeep/bees-ytrmp-nqjik/dataset/1

@@ -2,7 +2,14 @@ bees.v5i.yolov11/
 test
 train
 valid
-runs
+
+# ignore everything in runs
+runs/*
+
+# except detect/train folder and its contents
+!runs/detect/
+!runs/detect/train/
+!runs/detect/train/**
 
 # YOLO model weights
-*.pt
+*.ptA
